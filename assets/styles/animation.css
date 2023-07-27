@@ -1,0 +1,29 @@
+@keyframes sheet {
+    0% {
+        font-size: 40px;
+    }
+    50% {
+        font-size: 42px;
+    }
+    0% {
+        font-size: 40px;
+    }
+}
+
+@keyframes ufo {
+    from {
+        transform: translateX(-1000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes text__ {
+    from {
+        transform: translateY(600px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

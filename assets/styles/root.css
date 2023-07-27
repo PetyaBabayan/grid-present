@@ -1,0 +1,11 @@
+body {
+    background-color: #193549;
+    overflow: hidden;
+    font-family: Silkscreen, sans-serif;
+}
+
+.root {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}

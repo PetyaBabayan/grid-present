@@ -1,0 +1,48 @@
+.navbar_wrapper {
+    height: 80px;
+    width: 100%;
+}
+
+.navbar_unordered_list {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+}
+
+.navbar_unordered_list li:first-child {
+    flex-grow: 1;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.navbar_unordered_list li:nth-child(2),
+.navbar_unordered_list li:nth-child(3),
+.navbar_unordered_list li:nth-child(4),
+.navbar_unordered_list li:nth-child(5) {
+    margin-right: 80px;
+}
+
+.navbar_unordered_list li:nth-child(2),
+.navbar_unordered_list li:nth-child(3),
+.navbar_unordered_list li:nth-child(4),
+.navbar_unordered_list li:nth-child(5) {
+    font-size: 20px;
+}
+
+.navbar_unordered_list li:nth-child(5) {
+    margin-right: 40px;
+}
+
+
+.navbar_unordered_list li:nth-child(2):hover a,
+.navbar_unordered_list li:nth-child(3):hover a,
+.navbar_unordered_list li:nth-child(4):hover a,
+.navbar_unordered_list li:nth-child(5):hover a,
+.navbar_unordered_list li:nth-child(6):hover a {
+    /* color: yellow; */
+    color: goldenrod;
+    text-shadow: #FC0 1px 0 20px;
+    transition: 180ms;
+}
